@@ -8,3 +8,12 @@ test("takes array and returns average, min, max, length", () => {
     length: 6,
   });
 });
+
+test("takes array and returns average, min, max, length", () => {
+  expect(analyzeArray([1, 2, 3])).toEqual({
+    average: 2,
+    min: 1,
+    max: 3,
+    length: 3,
+  });
+});
